@@ -9,8 +9,6 @@
 
 - GitHub Releases：<https://github.com/ge-china/feiniu-music-tv-car/releases>
 - Gitee 发行版：<https://gitee.com/ge-china/feiniu-music-tv-car/releases>
-- 安装包直链（GitHub）：<https://github.com/ge-china/feiniu-music-tv-car/releases/download/v2.2.8/feiniu-music-tv-car-v2.2.8.apk>
-- 安装包直链（Gitee）：<https://gitee.com/ge-china/feiniu-music-tv-car/releases/download/v2.2.8/飞牛音乐电视&车机版-v2.2.8.apk>
 
 ## 交付物
 
