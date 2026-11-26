@@ -3,14 +3,14 @@
 面向 Android TV / 小米电视 / 通用电视盒子的飞牛音乐（trim.music）播放器。
 遥控器操作，**直连任意一台飞牛（fnOS）NAS 上的官方音乐接口**，不依赖任何第三方中转服务。
 
-**当前版本：v2.2.7（2026-11-26）
+**当前版本：v2.2.8（2026-11-26）
 
 ## 下载
 
 - GitHub Releases：<https://github.com/ge-china/feiniu-music-tv-car/releases>
 - Gitee 发行版：<https://gitee.com/ge-china/feiniu-music-tv-car/releases>
-- 安装包直链（GitHub）：<https://github.com/ge-china/feiniu-music-tv-car/releases/download/v2.2.7/feiniu-music-tv-car-v2.2.7.apk>
-- 安装包直链（Gitee）：<https://gitee.com/ge-china/feiniu-music-tv-car/releases/download/v2.2.7/飞牛音乐电视&车机版-v2.2.7.apk>
+- 安装包直链（GitHub）：<https://github.com/ge-china/feiniu-music-tv-car/releases/download/v2.2.8/feiniu-music-tv-car-v2.2.8.apk>
+- 安装包直链（Gitee）：<https://gitee.com/ge-china/feiniu-music-tv-car/releases/download/v2.2.8/飞牛音乐电视&车机版-v2.2.8.apk>
 
 ## 交付物
 
@@ -70,6 +70,7 @@ gradle assembleRelease    # 产物 app/build/outputs/apk/release/app-release.apk
 
 - **v2.2.3**（2026-11-26）：去掉 6 小时检查节流，改为每次进程启动检查一次（关掉重开 App 就会重新查）；手动「检查更新」在没有新版本时提示「已是最新版本」。
 - **v2.2.2**（2026-11-26）：更新检查优化—— 刚安装/刚升级后的 10 分钟内必定检查一次（避免重装后仍被 6 小时节流拦住）；设置页新增「检查更新」按钮，可随时手动触发并忽略节流。
+- **v2.2.8**（2026-11-26）：修复更新弹窗在页面切换瞬间可能闪退（增加页面已关闭/空引用防护）；发布站地址恢复直接写死。
 - **v2.2.7**（2026-11-26）：发布站地址改为构建时注入，源码不再出现域名/端口；未配置时自动跳过自家源。
 - **v2.2.6**（2026-11-26）：修复卸载重装后不提示更新 —— 更新检查移到所有页面基类（Setup/登录页也查）；更新源三选一（自家站 → Gitee → GitHub）；「稍后」改为 12 小时时效、刚装/刚升级自动清空。2.2.2–2.2.5 为系列迭代，详见 文档/版本记录.md。
 - **v2.2.1**（2026-11-26）：修复自动更新不提示—— Gitee 匿名接口常返回 403（限流），现改为 Gitee/GitHub 双源兜底并取较新版本；新增 6 小时检查节流、点「稍后」不再反复提示。
