@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+源代码/server/data/
+源代码/server/cache/
+源代码/server/server.log
+源代码/android/.gradle/
+源代码/android/build/
+源代码/android/app/build/
+源代码/android/local.properties
+文档/.DS_Store
+
+*.apk
+
+# 本地备份（不入库）
+备份/
+
+# ????????
+????/
+
+# 站点备份包不入库
+网站备份/
+
+# 网站站点源码/备份不进双仓
+网站/
+网站备份/
+tools/site-backup.py
+
+# 运维脚本不入库（含服务器信息）
+tools/deploy-site.py
+tools/site-backup.py
